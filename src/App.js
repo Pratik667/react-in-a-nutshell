@@ -1,12 +1,12 @@
 // import logo from './logo.svg';
 import './App.css';
-import Layout from './components/layout';
+import Calculator from './learn-redux/Calculator';
 
 function App() {
   console.log(`App component..`);
   return (    
       <div className="App">
-        <Layout />
+        <Calculator />
       </div>
   );
 }
